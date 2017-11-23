@@ -1,3 +1,5 @@
+package ru.mipt.cybersecurity.ECDH;
+
 import java.math.BigInteger;
 import java.security.PublicKey;
 import java.security.PrivateKey;
@@ -18,7 +20,7 @@ import ru.mipt.cybersecurity.jce.spec.ECPublicKeySpec;
 import ru.mipt.cybersecurity.jce.spec.ECPrivateKeySpec;
 import ru.mipt.cybersecurity.math.ec.ECPoint;
 
-public class ECDH_BC
+public class ECDH
 {
     final protected static char[] hexArray = "0123456789abcdef".toCharArray();
     public static String bytesToHex(byte[] bytes) {

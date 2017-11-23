@@ -1,5 +1,6 @@
 package ru.mipt.cybersecurity.crypto.tls;
 
+import ru.mipt.cybersecurity.crypto.CryptoException;
 import ru.mipt.cybersecurity.crypto.Signer;
 import ru.mipt.cybersecurity.crypto.params.AsymmetricKeyParameter;
 

@@ -3,6 +3,7 @@ package ru.mipt.cybersecurity.crypto.agreement.srp;
 import java.math.BigInteger;
 import java.security.SecureRandom;
 
+import ru.mipt.cybersecurity.crypto.CryptoException;
 import ru.mipt.cybersecurity.crypto.Digest;
 import ru.mipt.cybersecurity.crypto.params.SRP6GroupParameters;
 

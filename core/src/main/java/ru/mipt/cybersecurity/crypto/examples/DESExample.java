@@ -324,8 +324,7 @@ public class DESExample extends Object
                 }
             }
 
-            try
-            {
+
                 /*
                  * Now, process the bytes that are still buffered
                  * within the cipher.
@@ -337,11 +336,8 @@ public class DESExample extends Object
                     out.write(rv, 0, rv.length);
                     out.write('\n');
                 }
-            }
-            catch (CryptoException ce)
-            {
 
-            }
+
         }
         catch (IOException ioeread)
         {
@@ -393,8 +389,7 @@ public class DESExample extends Object
                 }
             }
 
-            try
-            {
+
                 /*
                  * Now, process the bytes that are still buffered
                  * within the cipher.
@@ -404,11 +399,7 @@ public class DESExample extends Object
                 {
                     out.write(outblock, 0, outL);
                 }
-            }
-            catch (CryptoException ce)
-            {
 
-            }
         }
         catch (IOException ioeread)
         {
