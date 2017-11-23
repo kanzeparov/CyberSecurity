@@ -9,14 +9,14 @@ import java.security.SecureRandom;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.ECGenParameterSpec;
 import javax.crypto.KeyAgreement;
-import ru.mipt.cybersecurity.jce.provider.BouncyCastleProvider;
-import ru.mipt.cybersecurity.jce.interfaces.ECPublicKey;
-import ru.mipt.cybersecurity.jce.interfaces.ECPrivateKey;
-import ru.mipt.cybersecurity.jce.ECNamedCurveTable;
-import ru.mipt.cybersecurity.jce.spec.ECParameterSpec;
-import ru.mipt.cybersecurity.jce.spec.ECPublicKeySpec;
-import ru.mipt.cybersecurity.jce.spec.ECPrivateKeySpec;
-import ru.mipt.cybersecurity.math.ec.ECPoint;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
+import org.bouncycastle.jce.interfaces.ECPublicKey;
+import org.bouncycastle.jce.interfaces.ECPrivateKey;
+import org.bouncycastle.jce.ECNamedCurveTable;
+import org.bouncycastle.jce.spec.ECParameterSpec;
+import org.bouncycastle.jce.spec.ECPublicKeySpec;
+import org.bouncycastle.jce.spec.ECPrivateKeySpec;
+import org.bouncycastle.math.ec.ECPoint;
 
 public class ECDH_BC
 {
@@ -36,7 +36,7 @@ public class ECDH_BC
         //return key.getEncoded();
 
         ECPublicKey eckey = (ECPublicKey)key;
-        return eckey.getQ().getEncoded(true);
+        return eckey.getQ().getEncoded();
     }
 
     public static PublicKey loadPublicKey (byte [] data) throws Exception
