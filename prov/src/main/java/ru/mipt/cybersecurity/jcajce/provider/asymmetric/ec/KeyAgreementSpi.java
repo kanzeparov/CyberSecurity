@@ -247,7 +247,7 @@ public class KeyAgreementSpi
     {
         public DH()
         {
-            super("ECDH", new ECDHBasicAgreement(), null);
+            super("ECDH_BC", new ECDHBasicAgreement(), null);
         }
     }
 

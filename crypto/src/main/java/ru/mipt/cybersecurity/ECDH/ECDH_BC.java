@@ -19,8 +19,7 @@ import ru.mipt.cybersecurity.jce.spec.ECParameterSpec;
 import ru.mipt.cybersecurity.jce.spec.ECPublicKeySpec;
 import ru.mipt.cybersecurity.jce.spec.ECPrivateKeySpec;
 import ru.mipt.cybersecurity.math.ec.ECPoint;
-
-public class ECDH
+public class ECDH_BC
 {
     final protected static char[] hexArray = "0123456789abcdef".toCharArray();
     public static String bytesToHex(byte[] bytes) {
@@ -49,7 +48,7 @@ public class ECDH
         ECParameterSpec params = ECNamedCurveTable.getParameterSpec("prime192v1");
         ECPublicKeySpec pubKey = new ECPublicKeySpec(
                 params.getCurve().decodePoint(data), params);
-        KeyFactory kf = KeyFactory.getInstance("ECDH", "BC");
+        KeyFactory kf = KeyFactory.getInstance("ECDH", "SC");
         return kf.generatePublic(pubKey);
     }
 
@@ -68,13 +67,13 @@ public class ECDH
 
         ECParameterSpec params = ECNamedCurveTable.getParameterSpec("prime192v1");
         ECPrivateKeySpec prvkey = new ECPrivateKeySpec(new BigInteger(data), params);
-        KeyFactory kf = KeyFactory.getInstance("ECDH", "BC");
+        KeyFactory kf = KeyFactory.getInstance("ECDH", "SC");
         return kf.generatePrivate(prvkey);
     }
 
     public static void doECDH (String name, byte[] dataPrv, byte[] dataPub) throws Exception
     {
-        KeyAgreement ka = KeyAgreement.getInstance("ECDH", "BC");
+        KeyAgreement ka = KeyAgreement.getInstance("ECDH", "SC");
         ka.init(loadPrivateKey(dataPrv));
         ka.doPhase(loadPublicKey(dataPub), true);
         byte [] secret = ka.generateSecret();
@@ -85,7 +84,7 @@ public class ECDH
     {
         Security.addProvider(new BouncyCastleProvider());
 
-        KeyPairGenerator kpgen = KeyPairGenerator.getInstance("ECDH", "BC");
+        KeyPairGenerator kpgen = KeyPairGenerator.getInstance("ECDH", "SC");
         kpgen.initialize(new ECGenParameterSpec("prime192v1"), new SecureRandom());
         KeyPair pairA = kpgen.generateKeyPair();
         KeyPair pairB = kpgen.generateKeyPair();

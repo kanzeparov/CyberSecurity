@@ -226,7 +226,7 @@ public class KeyFactorySpi
     {
         public ECDH()
         {
-            super("ECDH", BouncyCastleProvider.CONFIGURATION);
+            super("ECDH_BC", BouncyCastleProvider.CONFIGURATION);
         }
     }
 
