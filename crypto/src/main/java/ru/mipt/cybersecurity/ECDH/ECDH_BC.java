@@ -67,13 +67,13 @@ public class ECDH_BC
 
         ECParameterSpec params = ECNamedCurveTable.getParameterSpec("prime192v1");
         ECPrivateKeySpec prvkey = new ECPrivateKeySpec(new BigInteger(data), params);
-        KeyFactory kf = KeyFactory.getInstance("ECDH", "SC");
+        KeyFactory kf = KeyFactory.getInstance("ECDH", "BC");
         return kf.generatePrivate(prvkey);
     }
 
     public static void doECDH (String name, byte[] dataPrv, byte[] dataPub) throws Exception
     {
-        KeyAgreement ka = KeyAgreement.getInstance("ECDH", "SC");
+        KeyAgreement ka = KeyAgreement.getInstance("ECDH", "BC");
         ka.init(loadPrivateKey(dataPrv));
         ka.doPhase(loadPublicKey(dataPub), true);
         byte [] secret = ka.generateSecret();
@@ -84,7 +84,7 @@ public class ECDH_BC
     {
         Security.addProvider(new BouncyCastleProvider());
 
-        KeyPairGenerator kpgen = KeyPairGenerator.getInstance("ECDH", "SC");
+        KeyPairGenerator kpgen = KeyPairGenerator.getInstance("ECDH", "BC");
         kpgen.initialize(new ECGenParameterSpec("prime192v1"), new SecureRandom());
         KeyPair pairA = kpgen.generateKeyPair();
         KeyPair pairB = kpgen.generateKeyPair();
