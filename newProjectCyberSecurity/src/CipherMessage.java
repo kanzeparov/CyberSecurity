@@ -12,6 +12,12 @@ import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 
+/**
+ * Creates a new {@link CipherMessage} using the specified block cipher {@code algorithmName}.  Per this
+ * class's JavaDoc, this constructor also sets the following defaults:
+ * Class which helps encode message and decode message, also convert some elements to HEX
+ */
+
 public class CipherMessage {
     public static byte[] encodeMessage(byte[] key, String message) {
         byte[] encodedMessageAsBytes = null;

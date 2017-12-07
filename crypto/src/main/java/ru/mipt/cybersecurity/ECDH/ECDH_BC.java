@@ -11,6 +11,10 @@ import java.security.SecureRandom;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.ECGenParameterSpec;
 import javax.crypto.KeyAgreement;
+
+import ru.mipt.cybersecurity.crypto.DefaultBlockCipher;
+import ru.mipt.cybersecurity.crypto.OperationMode;
+import ru.mipt.cybersecurity.crypto.PaddingScheme;
 import ru.mipt.cybersecurity.jce.provider.BouncyCastleProvider;
 import ru.mipt.cybersecurity.jce.interfaces.ECPublicKey;
 import ru.mipt.cybersecurity.jce.interfaces.ECPrivateKey;
@@ -21,6 +25,13 @@ import ru.mipt.cybersecurity.jce.spec.ECPrivateKeySpec;
 import ru.mipt.cybersecurity.math.ec.ECPoint;
 public class ECDH_BC
 {
+
+
+    /**
+     * Creates a new {@link DefaultBlockCipher} using the specified block cipher {@code algorithmName}.  Per this
+     * class's JavaDoc, this constructor also sets the following defaults:
+     * convert bytesToHex
+     */
     final protected static char[] hexArray = "0123456789abcdef".toCharArray();
     public static String bytesToHex(byte[] bytes) {
         char[] hexChars = new char[bytes.length * 2];
@@ -32,6 +43,12 @@ public class ECDH_BC
         return new String(hexChars);
     }
 
+
+    /**
+     * Creates a new {@link DefaultBlockCipher} using the specified block cipher {@code algorithmName}.  Per this
+     * class's JavaDoc, this constructor also sets the following defaults:
+     * Method which save and generate ECPublicKey
+     */
     public static byte [] savePublicKey (PublicKey key) throws Exception
     {
         //return key.getEncoded();
@@ -40,6 +57,12 @@ public class ECDH_BC
         return eckey.getQ().getEncoded(true);
     }
 
+
+    /**
+     * Creates a new {@link DefaultBlockCipher} using the specified block cipher {@code algorithmName}.  Per this
+     * class's JavaDoc, this constructor also sets the following defaults:
+     * Method which load PublicKey by genereted ECParameterSpec
+     */
     public static PublicKey loadPublicKey (byte [] data) throws Exception
     {
 		/*KeyFactory kf = KeyFactory.getInstance("ECDH", "BC");
@@ -48,7 +71,7 @@ public class ECDH_BC
         ECParameterSpec params = ECNamedCurveTable.getParameterSpec("prime192v1");
         ECPublicKeySpec pubKey = new ECPublicKeySpec(
                 params.getCurve().decodePoint(data), params);
-        KeyFactory kf = KeyFactory.getInstance("ECDH", "SC");
+        KeyFactory kf = KeyFactory.getInstance("ECDH", "BC");
         return kf.generatePublic(pubKey);
     }
 
@@ -71,6 +94,11 @@ public class ECDH_BC
         return kf.generatePrivate(prvkey);
     }
 
+    /**
+     * Creates a new {@link DefaultBlockCipher} using the specified block cipher {@code algorithmName}.  Per this
+     * class's JavaDoc, this constructor also sets the following defaults:
+     * do ECDH
+     */
     public static void doECDH (String name, byte[] dataPrv, byte[] dataPub) throws Exception
     {
         KeyAgreement ka = KeyAgreement.getInstance("ECDH", "BC");
