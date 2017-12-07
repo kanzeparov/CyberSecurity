@@ -40,8 +40,7 @@ import com.fasteasytrade.JRandTest.IO.*;
  * <p>
  * Implementation is based on SHA1 algorithm in NIST test package.
  * <p>
- * 
- * @author Zur Aougav
+ *
  */
 public class SHA1Random extends FileAlgoRandomStream {
 

@@ -37,8 +37,7 @@ import com.fasteasytrade.JRandTest.IO.*;
 
 /**
  * Skipjack algorithm as a random stream based on Skipjack encryption algorithm.
- * 
- * @author Zur Aougav
+ *
  */
 public class SkipjackRandom extends FileAlgoRandomStream {
 

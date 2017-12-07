@@ -39,8 +39,6 @@ import com.fasteasytrade.JRandTest.IO.*;
  * QuadraidResidue Prng algorithm from NIST test package
  * <p>
  * Use QuadraticResidue1Prng class.
- * 
- * @author Zur Aougav
  */
 public class QuadraticResidue1 extends FileAlgoRandomStream {
 

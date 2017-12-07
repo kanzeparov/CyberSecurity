@@ -38,8 +38,7 @@ import com.fasteasytrade.JRandTest.IO.*;
 /**
  * Simple java secured random as a random stream
  * <p>
- * 
- * @author Zur Aougav
+ *
  */
 public class JavaSecuredRandom extends FileAlgoRandomStream {
 

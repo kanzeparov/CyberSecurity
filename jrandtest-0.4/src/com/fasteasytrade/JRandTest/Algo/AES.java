@@ -42,8 +42,6 @@ import javax.crypto.spec.*;
  * <p>
  * Use JCE AES algorithm.
  * <p>
- * 
- * @author Zur Aougav
  */
 public class AES extends FileAlgoRandomStream {
 

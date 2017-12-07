@@ -38,8 +38,7 @@ import com.fasteasytrade.JRandTest.IO.FileAlgoRandomStream;
 /**
  * Stream of random bytes from BFcipher class
  * <P>
- * 
- * @author Zur Aougav
+ *
  */
 public class BlowFish extends FileAlgoRandomStream {
 

@@ -64,8 +64,7 @@ package com.fasteasytrade.JRandTest.Algo;
  * <li><code> 6.34 Mb/s ( 43%)</code> Sun's MessageDigest.getInstance("SHA1")
  * executed with Sun JVM 1.4.0</li>
  * </ul>
- * 
- * @author Lapo Luchini &lt;lapo@lapo.it&gt;
+ *
  */
 
 public final class SHA1 extends Cipher implements Cloneable {

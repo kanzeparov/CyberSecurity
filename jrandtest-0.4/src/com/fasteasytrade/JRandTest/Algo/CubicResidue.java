@@ -39,8 +39,7 @@ import com.fasteasytrade.JRandTest.IO.*;
  * CubicResidue Prng algorithm from NIST test package
  * <p>
  * Use CubicResiduePrng class.
- * 
- * @author Zur Aougav
+ *
  */
 public class CubicResidue extends FileAlgoRandomStream {
 

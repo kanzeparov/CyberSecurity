@@ -43,8 +43,7 @@ package com.fasteasytrade.JRandTest.Algo;
  * optimized by Mark Tillotson <markt@chaos.org.uk>1998.06.25 <br>
  * optimized by Paulo Barreto <pbarreto@nw.com.br>1998.06.30 <br>
  * gnupg support by Werner Koch <dd9jn@amsat.org>1998.07.02 <br>
- * 
- * @author Zur Aougav
+ *
  *  
  */
 

@@ -46,8 +46,7 @@ import java.util.Random;
  * <p>
  * Each prng iteration calculate g = g**2 mod p.<br>
  * The lowest 64 bits of g are the prng result.
- * 
- * @author Zur Aougav
+ *
  */
 public class QuadraticResidue1Prng extends Cipher {
 

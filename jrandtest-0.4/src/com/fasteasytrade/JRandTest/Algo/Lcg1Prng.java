@@ -40,8 +40,7 @@ package com.fasteasytrade.JRandTest.Algo;
  * Seed to LCG is double
  * <p>
  * Each cycle returns new double.
- * 
- * @author Zur Aougav
+ *
  */
 public class Lcg1Prng extends Cipher {
 

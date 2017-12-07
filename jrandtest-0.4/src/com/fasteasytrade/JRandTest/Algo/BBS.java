@@ -39,8 +39,7 @@ import com.fasteasytrade.JRandTest.IO.*;
  * BBS from NIST test package as a random stream
  * <p>
  * Use BBSPrng class.
- * 
- * @author Zur Aougav
+ *
  */
 public class BBS extends FileAlgoRandomStream {
 

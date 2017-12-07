@@ -37,8 +37,7 @@ import com.fasteasytrade.JRandTest.IO.*;
 
 /**
  * ZAC3 algorithm as a random stream based on ZAC3 encryption algorithm.
- * 
- * @author Zur Aougav
+ *
  */
 public class ZAC3Random extends FileAlgoRandomStream {
 

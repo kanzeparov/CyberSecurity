@@ -39,8 +39,7 @@ import java.util.*;
 /**
  * Simple java random as a random stream
  * <p>
- * 
- * @author Zur Aougav
+ *
  */
 public class JavaRandom extends FileAlgoRandomStream {
 

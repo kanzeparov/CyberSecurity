@@ -58,8 +58,7 @@ import java.util.Random;
  * 20 bytes, and step each key with a check if digest message arrived at is the
  * correct one. Hence, the random number of steps is never exposed directly, but
  * the hash contains implicitly the correct position.
- * 
- * @author Zur Aougav
+ *
  */
 public class ZAC3 extends Cipher {
 

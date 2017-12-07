@@ -38,8 +38,7 @@ import com.fasteasytrade.JRandTest.IO.*;
 /**
  * Alleged RC4 algorithm as a random stream
  * <p>
- * 
- * @author Zur Aougav
+ *
  */
 public class ARC4 extends FileAlgoRandomStream {
 

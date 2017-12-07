@@ -40,7 +40,7 @@ import java.math.BigInteger;
  * RSA algorithm as a random stream. Use RSACrypt class.
  * <p>
  * 
- * @author Zur Aougav
+
  */
 public class RSA extends FileAlgoRandomStream {
 

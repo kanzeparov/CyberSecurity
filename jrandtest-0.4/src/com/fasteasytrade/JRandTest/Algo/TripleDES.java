@@ -43,8 +43,7 @@ import javax.crypto.spec.*;
  * <p>
  * Use JCE DESEDE algorithm.
  * <p>
- * 
- * @author Zur Aougav
+ *
  */
 public class TripleDES extends FileAlgoRandomStream {
 

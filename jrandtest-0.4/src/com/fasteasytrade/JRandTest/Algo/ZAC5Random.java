@@ -37,8 +37,7 @@ import com.fasteasytrade.JRandTest.IO.*;
 
 /**
  * ZAC5 algorithm as a random stream based on ZAC5 encryption algorithm.
- * 
- * @author Zur Aougav
+ *
  */
 public class ZAC5Random extends FileAlgoRandomStream {
 

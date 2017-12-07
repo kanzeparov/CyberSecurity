@@ -39,8 +39,7 @@ import com.fasteasytrade.JRandTest.IO.*;
  * ModulusExponent Prng algorithm from NIST test package
  * <p>
  * Use ModulusExponentPrng class.
- * 
- * @author Zur Aougav
+ *
  */
 public class ModulusExponent extends FileAlgoRandomStream {
 

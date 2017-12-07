@@ -38,8 +38,7 @@ import com.fasteasytrade.JRandTest.IO.*;
 /**
  * Simple LCG from NIST test package as a random stream
  * <p>
- * 
- * @author Zur Aougav
+ *
  */
 public class Lcg1 extends FileAlgoRandomStream {
 

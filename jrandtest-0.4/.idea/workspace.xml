@@ -21,41 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DES.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/DES.java">
+      <file leaf-file-name="ZAC3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3612">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaSecuredRandom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/JavaSecuredRandom.java">
+      <file leaf-file-name="ZAC3Random.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC3Random.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2710">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MicaliSchnorrPrng.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/MicaliSchnorrPrng.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3768">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gui.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/GUI/Gui.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="371" column="8" selection-start-line="371" selection-start-column="8" selection-end-line="371" selection-end-column="8" />
+            <state relative-caret-position="126">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -64,28 +44,28 @@
       <file leaf-file-name="ZAC5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18730">
-              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+            <state relative-caret-position="220">
+              <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RSA.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/RSA.java">
+      <file leaf-file-name="ZAC5Random.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC5Random.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
-              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CmdLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Tests/CmdLine.java">
+      <file leaf-file-name="RSACrypt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/RSACrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="160" column="51" selection-start-line="160" selection-start-column="51" selection-end-line="160" selection-end-column="51" />
+            <state relative-caret-position="104">
+              <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -94,8 +74,48 @@
       <file leaf-file-name="SHA1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SHA1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+            <state relative-caret-position="104">
+              <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TripleDES.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/TripleDES.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SHA1Random.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SHA1Random.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Skipjack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/Skipjack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkipjackRandom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SkipjackRandom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -113,6 +133,40 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/GUI/Gui.java" />
         <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Tests/CmdLine.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/Cipher.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/BlowFish.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/BBSPrng.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/AES.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ARC4.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/BBS.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/BFcipher.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/CubicResidue.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/CubicResiduePrng.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/JavaRandom.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/JavaSecuredRandom.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/Lcg1.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/Lcg1Prng.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/MicaliSchnorrPrng.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/MicaliSchnorr.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ModulusExponent.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ModulusExponentPrng.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/MT19937.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/QuadraticResidue1.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/QuadraticResidue1Prng.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/QuadraticResidue2.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/QuadraticResidue2Prng.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/RC4Key.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/RSA.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/RSACrypt.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SHA1.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SHA1Random.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/Skipjack.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SkipjackRandom.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/TripleDES.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC3.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC3Random.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC5.java" />
+        <option value="$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC5Random.java" />
       </list>
     </option>
   </component>
@@ -572,7 +626,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -628,14 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SHA1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/GUI/Gui.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -644,42 +690,290 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC5.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/AES.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18730">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state relative-caret-position="104">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ARC4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/BBS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/BBSPrng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/BFcipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/BlowFish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/Cipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/CubicResidue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/CubicResiduePrng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/DES.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3612">
+        <state relative-caret-position="22">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/JavaRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/JavaSecuredRandom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2710">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="88">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/Lcg1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/Lcg1Prng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/MicaliSchnorrPrng.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3768">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="220">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/MicaliSchnorr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ModulusExponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ModulusExponentPrng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/MT19937.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/MT19937Prng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/QuadraticResidue1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/QuadraticResidue1Prng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/QuadraticResidue2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/QuadraticResidue2Prng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/RC4Key.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/RSA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/RSACrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SHA1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SHA1Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/Skipjack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/SkipjackRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/TripleDES.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC3Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fasteasytrade/JRandTest/Algo/ZAC5Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
           <folding />
         </state>
       </provider>

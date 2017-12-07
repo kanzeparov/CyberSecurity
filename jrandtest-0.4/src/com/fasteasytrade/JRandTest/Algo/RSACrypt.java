@@ -61,8 +61,7 @@ import java.util.zip.*;
  * 4 Sep 2003: Changed default e=3 to e=65537.
  * 17  Mar 2005: encrypt (0 || random 32 bits || data).
  * </pre>
- * 
- * @author Zur Aougav
+ *
  */
 
 public class RSACrypt extends Cipher {

@@ -42,8 +42,7 @@ import java.io.*;
  * Copyright (c) 1997 Andrew Tuman. <andrew@parexnet.lv>All rights reserved.
  * <p>
  * Free for commercial and non-commercial use.
- * 
- * @author Andrew Tuman
+ *
  */
 
 public class BFcipher extends Cipher {

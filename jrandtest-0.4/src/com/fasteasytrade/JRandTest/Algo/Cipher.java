@@ -36,8 +36,7 @@ package com.fasteasytrade.JRandTest.Algo;
 
 /**
  * Cipher class is a base to all cipher algorithms in JRandTest.
- * 
- * @author Zur Aougav
+ *
  *  
  */
 

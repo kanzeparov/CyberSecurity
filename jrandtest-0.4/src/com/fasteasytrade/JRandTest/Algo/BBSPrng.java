@@ -44,8 +44,7 @@ import java.util.Random;
  * The test suite is according to FIPS 140-1. See "Handbook of Applied
  * Cryptography" by Alfred J. Menezes et al Section 5.4.4 pages 181 - 183 and
  * 5.40 Algorithm page 186.
- * 
- * @author Zur Aougav
+ *
  */
 public class BBSPrng extends Cipher {
 

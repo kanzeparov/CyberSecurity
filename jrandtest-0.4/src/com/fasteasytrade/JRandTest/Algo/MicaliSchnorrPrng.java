@@ -47,8 +47,7 @@ import java.util.Random;
  * generator. The test suite is according to FIPS 140-1. See "Handbook of
  * Applied Cryptography" by Alfred J. Menezes et al Section 5.4.4 pages 181 -
  * 183 and 5.37 Algorithm page 186.
- * 
- * @author Zur Aougav
+ *
  */
 public class MicaliSchnorrPrng extends Cipher {
 

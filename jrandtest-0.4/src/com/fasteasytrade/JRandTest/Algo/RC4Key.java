@@ -39,8 +39,6 @@ import java.io.*;
  * Alleged RC4 implemented as RC4Key. Returns byte.
  * <p>
  * Include debug level and logging into external file.
- * 
- * @author Zur Aougav
  *  
  */
 public class RC4Key extends Cipher {
