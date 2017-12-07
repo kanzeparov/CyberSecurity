@@ -110,26 +110,27 @@ public class ECDH_BC
 
     public static void main (String [] args) throws Exception
     {
-        Security.addProvider(new BouncyCastleProvider());
-
-        KeyPairGenerator kpgen = KeyPairGenerator.getInstance("ECDH", "BC");
-        kpgen.initialize(new ECGenParameterSpec("prime192v1"), new SecureRandom());
-        KeyPair pairA = kpgen.generateKeyPair();
-        KeyPair pairB = kpgen.generateKeyPair();
-        System.out.println("Alice: " + pairA.getPrivate());
-        System.out.println("Alice: " + pairA.getPublic());
-        System.out.println("Bob:   " + pairB.getPrivate());
-        System.out.println("Bob:   " + pairB.getPublic());
-        byte [] dataPrvA = savePrivateKey(pairA.getPrivate());
-        byte [] dataPubA = savePublicKey(pairA.getPublic());
-        byte [] dataPrvB = savePrivateKey(pairB.getPrivate());
-        byte [] dataPubB = savePublicKey(pairB.getPublic());
-        System.out.println("Alice Prv: " + bytesToHex(dataPrvA));
-        System.out.println("Alice Pub: " + bytesToHex(dataPubA));
-        System.out.println("Bob Prv:   " + bytesToHex(dataPrvB));
-        System.out.println("Bob Pub:   " + bytesToHex(dataPubB));
-
-        doECDH("Alice's secret: ", dataPrvA, dataPubB);
-        doECDH("Bob's secret:   ", dataPrvB, dataPubA);
+        System.out.println();
+//        Security.addProvider(new BouncyCastleProvider());
+//
+//        KeyPairGenerator kpgen = KeyPairGenerator.getInstance("ECDH", "BC");
+//        kpgen.initialize(new ECGenParameterSpec("prime192v1"), new SecureRandom());
+//        KeyPair pairA = kpgen.generateKeyPair();
+//        KeyPair pairB = kpgen.generateKeyPair();
+//        System.out.println("Alice: " + pairA.getPrivate());
+//        System.out.println("Alice: " + pairA.getPublic());
+//        System.out.println("Bob:   " + pairB.getPrivate());
+//        System.out.println("Bob:   " + pairB.getPublic());
+//        byte [] dataPrvA = savePrivateKey(pairA.getPrivate());
+//        byte [] dataPubA = savePublicKey(pairA.getPublic());
+//        byte [] dataPrvB = savePrivateKey(pairB.getPrivate());
+//        byte [] dataPubB = savePublicKey(pairB.getPublic());
+//        System.out.println("Alice Prv: " + bytesToHex(dataPrvA));
+//        System.out.println("Alice Pub: " + bytesToHex(dataPubA));
+//        System.out.println("Bob Prv:   " + bytesToHex(dataPrvB));
+//        System.out.println("Bob Pub:   " + bytesToHex(dataPubB));
+//
+//        doECDH("Alice's secret: ", dataPrvA, dataPubB);
+//        doECDH("Bob's secret:   ", dataPrvB, dataPubA);
     }
 }
