@@ -4,7 +4,11 @@ import java.math.BigInteger;
 
 import javax.crypto.interfaces.DHPublicKey;
 import javax.crypto.spec.DHParameterSpec;
-
+/**
+ * Creates a new {@link Main} using the specified block cipher {@code algorithmName}.  Per this
+ * class's JavaDoc, this constructor also sets the following defaults:
+ * TRANSPORT PUBLIC KEY
+ */
 public class TransportPublicKey implements DHPublicKey {
     private byte[] encoded;
     private BigInteger y;
