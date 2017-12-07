@@ -10,7 +10,11 @@ import java.util.Arrays;
 import javax.crypto.KeyAgreement;
 import javax.crypto.interfaces.DHPublicKey;
 import javax.crypto.spec.DHParameterSpec;
-
+/**
+ * Creates a new {@link Main} using the specified block cipher {@code algorithmName}.  Per this
+ * class's JavaDoc, this constructor also sets the following defaults:
+ * side A
+ */
 public class SideA {
     private byte[] hashSecretKey = null;
      
@@ -45,7 +49,7 @@ public class SideA {
         (byte) 0x19, (byte) 0x26, (byte) 0xBA, (byte) 0xAB, (byte) 0xA2,
         (byte) 0x5E, (byte) 0xC3, (byte) 0x55, (byte) 0xE9, (byte) 0x2F,
         (byte) 0x78, (byte) 0xC7 };
- //http://www.java2s.com/Tutorials/Java/java.math/BigInteger/Java_BigInteger_int_signum_byte_magnitude_Constructor.htm
+    //http://www.java2s.com/Tutorials/Java/java.math/BigInteger/Java_BigInteger_int_signum_byte_magnitude_Constructor.htm
     //https://stackoverflow.com/questions/31739126/extract-1024bit-modulus-from-rsa-key
     //https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960x/software/15-0_2_EX/security/configuration_guide/b_sec_152ex_2960-x_cg/b_sec_152ex_2960-x_cg_chapter_01001.html
     // The SKIP 1024 bit modulus

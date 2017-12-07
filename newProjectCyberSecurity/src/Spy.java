@@ -11,7 +11,11 @@ import java.util.Arrays;
 import javax.crypto.KeyAgreement;
 import javax.crypto.interfaces.DHPublicKey;
 import javax.crypto.spec.DHParameterSpec;
-
+/**
+ * Creates a new {@link Main} using the specified block cipher {@code algorithmName}.  Per this
+ * class's JavaDoc, this constructor also sets the following defaults:
+ * To present SPY
+ */
 public class Spy {
 	private byte[] hashSecretKey = null;
     
