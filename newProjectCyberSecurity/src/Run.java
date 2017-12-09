@@ -1,5 +1,9 @@
 
-
+/**
+ * Creates a new {@link Main} using the specified block cipher {@code algorithmName}.  Per this
+ * class's JavaDoc, this constructor also sets the following defaults:
+ * To present CONSOLE
+ */
 public class Run {
     public static void main(String [] args) {
         SideA sideA = new SideA();

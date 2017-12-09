@@ -18,7 +18,7 @@
  */
 package ru.mipt.cybersecurity.codec;
 
-import org.apache.shiro.util.ByteSource;
+
 
 import java.io.*;
 

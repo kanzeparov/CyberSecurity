@@ -2,7 +2,7 @@ package ru.mipt.cybersecurity.crypto.agreement.jpake;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;
-
+import ru.mipt.cybersecurity.crypto.*;
 import ru.mipt.cybersecurity.crypto.Digest;
 import ru.mipt.cybersecurity.crypto.digests.SHA256Digest;
 import ru.mipt.cybersecurity.util.Arrays;

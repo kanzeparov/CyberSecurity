@@ -8,6 +8,12 @@ import java.awt.event.ActionListener;
  * Created by Franck on 14.11.2017.
  */
 
+/**
+ * Creates a new {@link Main} using the specified block cipher {@code algorithmName}.  Per this
+ * class's JavaDoc, this constructor also sets the following defaults:
+ * To present UI SWING
+ */
+
 public class Main {
 
     static JLabel textBob;
@@ -60,18 +66,18 @@ public class Main {
         JPanel panelAlise = new JPanel();
         panelAlise.setLayout(new GridLayout(2,1));
         panelAlise.add(labelAlise);
-        panelAlise.setBackground(Color.YELLOW);
+        panelAlise.setBackground(Color.WHITE);
         panelAlise.add(textAlise);
         JPanel panelBob = new JPanel();
         panelBob.setLayout(new GridLayout(2,1));
         panelBob.add(labelBob);
-        panelBob.setBackground(Color.GREEN);
+        panelBob.setBackground(Color.WHITE);
         panelBob.add(textBob);
         JPanel panelSpy = new JPanel();
         panelSpy.setLayout(new GridLayout(3,1));
         panelSpy.add(labelSpy);
         panelSpy.add(progressBar);
-        panelSpy.setBackground(Color.RED);
+        panelSpy.setBackground(Color.WHITE);
         panelSpy.add(textSpy);
         JPanel panelTextMessage = new JPanel();
         JPanel panelRunButton = new JPanel();

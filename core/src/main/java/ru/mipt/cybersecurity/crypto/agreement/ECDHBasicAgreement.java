@@ -44,14 +44,14 @@ public class ECDHBasicAgreement
         ECPublicKeyParameters pub = (ECPublicKeyParameters)pubKey;
         if (!pub.getParameters().equals(key.getParameters()))
         {
-            throw new IllegalStateException("ECDH public key has wrong domain parameters");
+            throw new IllegalStateException("ECDH_BC public key has wrong domain parameters");
         }
 
         ECPoint P = pub.getQ().multiply(key.getD()).normalize();
 
         if (P.isInfinity())
         {
-            throw new IllegalStateException("Infinity is not a valid agreement value for ECDH");
+            throw new IllegalStateException("Infinity is not a valid agreement value for ECDH_BC");
         }
 
         return P.getAffineXCoord().toBigInteger();

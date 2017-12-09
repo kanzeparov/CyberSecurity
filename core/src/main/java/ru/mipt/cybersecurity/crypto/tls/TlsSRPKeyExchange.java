@@ -8,6 +8,7 @@ import java.util.Vector;
 
 import ru.mipt.cybersecurity.asn1.x509.KeyUsage;
 import ru.mipt.cybersecurity.asn1.x509.SubjectPublicKeyInfo;
+import ru.mipt.cybersecurity.crypto.CryptoException;
 import ru.mipt.cybersecurity.crypto.Digest;
 import ru.mipt.cybersecurity.crypto.Signer;
 import ru.mipt.cybersecurity.crypto.agreement.srp.SRP6Client;

@@ -11,6 +11,7 @@ import ru.mipt.cybersecurity.asn1.ASN1Primitive;
 import ru.mipt.cybersecurity.asn1.ASN1Sequence;
 import ru.mipt.cybersecurity.asn1.DERSequence;
 import ru.mipt.cybersecurity.crypto.CipherParameters;
+import ru.mipt.cybersecurity.crypto.CryptoException;
 import ru.mipt.cybersecurity.crypto.Digest;
 import ru.mipt.cybersecurity.crypto.Signer;
 import ru.mipt.cybersecurity.crypto.digests.SM3Digest;
